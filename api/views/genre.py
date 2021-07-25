@@ -1,10 +1,10 @@
 from rest_framework import filters
 from rest_framework.pagination import PageNumberPagination
 
-from api_reviews.models.genre import Genre
-from api_reviews.permissions import IsAdminOrReadOnly
-from api_reviews.serializers.genre import GenreSerializer
-from api_reviews.viewsets import CreateDestroyReadOnlyCustom
+from api.models.genre import Genre
+from api.permissions import IsAdminOrReadOnly
+from api.serializers.genre import GenreSerializer
+from api.viewsets import CreateDestroyReadOnlyCustom
 
 
 class GenreViewSet(CreateDestroyReadOnlyCustom):

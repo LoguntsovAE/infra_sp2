@@ -2,8 +2,8 @@ from django.shortcuts import get_object_or_404
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 
-from api_reviews.models import Title
-from api_reviews.models.review import Review
+from api.models import Title
+from api.models.review import Review
 
 
 class ReviewSerializer(serializers.ModelSerializer):

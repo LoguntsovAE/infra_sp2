@@ -16,7 +16,7 @@ ___
 1. Склонировать репозиторий
 2. Собрать и запустить образ
 ```sh
-docker-compose up -b --build
+docker-compose up -d --build
 ```
 3. Подготовить миграции
 ```sh

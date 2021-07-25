@@ -3,10 +3,10 @@ from django_filters import rest_framework as filters
 from rest_framework import viewsets
 from rest_framework.pagination import PageNumberPagination
 
-from api_reviews.filters import TitleFilter
-from api_reviews.models.title import Title
-from api_reviews.permissions import IsAdminOrReadOnly
-from api_reviews.serializers.title import (TitleSerializerGet,
+from api.filters import TitleFilter
+from api.models.title import Title
+from api.permissions import IsAdminOrReadOnly
+from api.serializers.title import (TitleSerializerGet,
                                            TitleSerializerPost)
 
 

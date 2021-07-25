@@ -3,9 +3,9 @@ from rest_framework import viewsets
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
-from api_reviews.models import Title
-from api_reviews.permissions import IsOwnerOrReadOnlyPermission
-from api_reviews.serializers.review import ReviewSerializer
+from api.models import Title
+from api.permissions import IsOwnerOrReadOnlyPermission
+from api.serializers.review import ReviewSerializer
 
 
 class ReviewViewSet(viewsets.ModelViewSet):
