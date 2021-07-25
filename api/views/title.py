@@ -7,7 +7,7 @@ from api.filters import TitleFilter
 from api.models.title import Title
 from api.permissions import IsAdminOrReadOnly
 from api.serializers.title import (TitleSerializerGet,
-                                           TitleSerializerPost)
+                                   TitleSerializerPost)
 
 
 class TitleViewSet(viewsets.ModelViewSet):
